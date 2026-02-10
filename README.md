@@ -24,7 +24,6 @@ MM-NeuroOnco consists of:
 - **Open-Ended VQA**
 - Structured medical attribute annotations
 - Chain-of-Thought supervision
-- Diagnosis-oriented semantic reasoning
 
 More detailed documentation will be released soon.
 
@@ -37,7 +36,6 @@ We propose a conservative radiologist-inspired multi-model reasoning protocol:
 - Omission over fabrication principle
 - Default-null initialization
 - Structured diagnostic constraints
-- Cross-model semantic verification
 
 Pipeline details will be released in `docs/`.
 
