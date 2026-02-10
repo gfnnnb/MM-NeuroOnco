@@ -1,65 +1,56 @@
-# MM-NeuroOnco
-
-A large-scale multimodal benchmark and instruction dataset for clinically grounded brain tumor MRI understanding.
+# MM-NeuroOnco  
+### A Multimodal Benchmark and Instruction Dataset for MRI-Based Brain Tumor Diagnosis
 
 Official repository for our KDD submission.
 
 ---
 
-## 🔥 Highlights
+## Overview
 
-- 📊 24,726 MRI slices aggregated from 20 data sources
-- 🧠 ~200K semantically enriched multimodal instructions
-- 🏥 Clinically grounded diagnostic reasoning benchmark
-- 🚫 Rejection-aware evaluation protocol
-- 🤖 Multi-model collaborative medical semantic completion pipeline
+MM-NeuroOnco is a large-scale multimodal benchmark and instruction dataset designed for clinically grounded MRI-based brain tumor diagnosis.
 
----
+The project consists of:
 
-## 📦 Dataset Overview
-
-MM-NeuroOnco consists of:
-
-- **Closed-Ended VQA**
-- **Open-Ended VQA**
-- Structured medical attribute annotations
-- Chain-of-Thought supervision
-
-More detailed documentation will be released soon.
+- A closed-ended evaluation benchmark
+- An open-ended reasoning benchmark
+- A large-scale instruction dataset
+- A complete MRI slice image collection
 
 ---
 
-## 🧩 Multi-Model Semantic Completion Pipeline
+## Repository Structure
 
-We propose a conservative radiologist-inspired multi-model reasoning protocol:
+benchmark/
+├── closed/ # Closed-ended benchmark JSON
+├── open/ # Open-ended benchmark JSON
+└── splits/ # Evaluation split definitions
 
-- Omission over fabrication principle
-- Default-null initialization
-- Structured diagnostic constraints
+docs/ # Documentation
 
-Pipeline details will be released in `docs/`.
-
----
-
-## 📊 Benchmark
-
-We evaluate representative LVLMs under both standard and rejection-aware settings.
-
-Full benchmark results and evaluation scripts will be released in `benchmark/` and `evaluation/`.
 
 ---
 
-## 🚀 Project Structure
+## Image Data
 
-MM-NeuroOnco/
-├── assets/
-├── benchmark/
-├── docs/
-├── evaluation/
-├── examples/
-└── pipeline/
+The complete MRI slice image collection supporting both benchmark and instruction data is hosted on HuggingFace:
 
-## 📬 Contact
+🔗 https://huggingface.co/datasets/gfnnnb/MM-NeuroOnco-Images
 
-For dataset access or collaboration inquiries, please open an issue.
+The directory structure mirrors the `image_path` field in the JSON files.
 
+---
+
+## License
+
+Image data: CC BY-NC 4.0  
+Code & annotations: Released for research purposes.
+
+Users must comply with original licenses of the aggregated public medical datasets.
+
+---
+
+## Citation
+
+If you use MM-NeuroOnco, please cite:
+
+MM-NeuroOnco: A Multimodal Benchmark and Instruction Dataset for MRI-Based Brain Tumor Diagnosis
