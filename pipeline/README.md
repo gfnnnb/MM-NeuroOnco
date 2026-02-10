@@ -17,27 +17,18 @@ This repository provides the full data construction pipeline for:
 
 This pipeline was designed for clinically grounded multimodal brain tumor reasoning research.
 
-📂 Project Structure
-.
-├── metadata_extraction/
-│   ├── process_dataset_05.py
-│   ├── process_dataset_10.py
-│   ├── process_dataset_14.py
-│   ├── process_dataset_16.py
-│   ├── process_dataset_19.py
-│   └── merge_metadata.py
+## 📂 Project Structure
+
+```
+metadata_extraction/        # Raw dataset parsing & metadata construction
+pipeline/                   # Multi-model semantic extraction pipeline
 │
-├── pipeline/
-│   ├── prepare_llm_inference_json.py
-│   ├── extract_semantic_features.py
-│   ├── run_a_label_extraction.py
-│   ├── run_b_label_extraction.py
-│   ├── fuse_silver_labels.py
-│   └── step3_quality_control.py
+├── Step 1: Silver Label Extraction (Dual LLM)
+├── Step 2: Double-Blind Fusion
+├── Step 3: Gemini Quality Audit
 │
-├── outputs/
-├── requirements.txt
-└── README.md
+outputs/                    # Intermediate & final outputs
+```
 
 ⚙️ Installation
 git clone <your_repo_url>
@@ -148,5 +139,6 @@ Deterministic decoding (temperature=0)
 Atomic file writes
 
 Checkpoint-based recovery
+
 
 Multi-thread safe execution
