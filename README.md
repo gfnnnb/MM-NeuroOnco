@@ -1,6 +1,6 @@
 # MM-NeuroOnco
 
-A large-scale multimodal benchmark for clinically grounded brain tumor MRI understanding.
+A large-scale multimodal benchmark and instruction dataset for clinically grounded brain tumor MRI understanding.
 
 Official repository for our KDD submission.
 
