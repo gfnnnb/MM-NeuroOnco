@@ -65,6 +65,11 @@ Code & annotations: Released for research purposes.
 Users must comply with original licenses of the aggregated public medical datasets.
 
 ---
+## Ethics & Data Governance
+
+For ethical considerations and data governance policies, see:
+
+[Data Governance & Ethics Statement](docs/ethics_and_governance.md)
 
 ## Citation
 
