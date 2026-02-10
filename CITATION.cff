@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "MM-NeuroOnco: A Multimodal Benchmark and Instruction Dataset for MRI-Based Brain Tumor Diagnosis"
+message: "If you use this dataset or code, please cite our KDD paper."
+type: dataset
+authors:
+  - family-names: Guo
+    given-names: Feng
+    affiliation: Guangdong Institute of Intelligence Science and Technology
+  - family-names: Liu
+    given-names: Jiaxiang
+    affiliation: Guangdong Institute of Intelligence Science and Technology
+  - family-names: Li
+    given-names: Yang
+    affiliation: Guangdong Institute of Intelligence Science and Technology
+  - family-names: Shi
+    given-names: Qianqian
+    affiliation: Tsinghua University
+  - family-names: Xu
+    given-names: Mingkun
+    affiliation: Guangdong Institute of Intelligence Science and Technology
+    email: xumingkun@gdiist.cn
+repository-code: "https://github.com/gfnnnb/MM-NeuroOnco"
+license: MIT
