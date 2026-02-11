@@ -2,10 +2,7 @@
 ### A Multimodal Benchmark and Instruction Dataset for MRI-Based Brain Tumor Diagnosis
 
 [![License](https://img.shields.io/badge/License-Research%20Only-blue.svg)]()
-[![Status](https://img.shields.io/badge/KDD%202026-Under%20Review-orange)]()
 
-
-Official repository for our KDD submission.
 
 ---
 
