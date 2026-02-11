@@ -39,9 +39,10 @@ https://huggingface.co/datasets/gfnnnb/MM-NeuroOnco-Images
 - Users must request access and agree to the dataset terms.
 - The instruction/training images require approval.
 
-⚠️ BraTS2021 images are NOT included due to redistribution restrictions.  
-They must be downloaded separately from the official source:
-https://www.kaggle.com/datasets/asefjamilajwad2/brats2021
+⚠️ BraTS 2021 imaging data are not redistributed in this repository due to licensing restrictions.
+Users must obtain the dataset from the official BraTS challenge website
+after registration and agreement to the data usage terms:
+https://www.med.upenn.edu/cbica/brats2021/
 
 ---
 
