@@ -1,8 +1,9 @@
-Metadata and Attribute Annotations
+## Metadata and Attribute Annotations
 
 This directory contains structured medical attribute annotations and intermediate semantic extraction outputs used in the construction of MM-NeuroOnco.
 
-File Overview
+## File Overview
+
 1️⃣ Semantic Extraction Subset
 step1_supplement_ready.json
 
@@ -53,7 +54,7 @@ The complete dataset-level metadata files are large and therefore hosted separat
 
 👉 https://huggingface.co/datasets/gfnnnb/MM-NeuroOnco-Images
 
-These include:
+## These include:
 
 all_brain_tumor_metadata.json
 
