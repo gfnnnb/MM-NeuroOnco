@@ -130,6 +130,12 @@ MM-NeuroOnco does not claim ownership of the underlying medical images.
 
 ---
 
+## Evaluation
+
+Evaluation scripts are provided in the `evaluation/` directory.
+
+See `evaluation/README.md` for environment setup and usage instructions.
+
 ## License
 
 - **Code & annotations:** Released for research use only.
