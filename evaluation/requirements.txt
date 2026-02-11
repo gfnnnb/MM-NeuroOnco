@@ -1,0 +1,13 @@
+torch>=2.1
+transformers>=4.45
+accelerate>=0.33
+pillow>=10.0
+tqdm>=4.66
+numpy>=1.24
+sentencepiece>=0.2.0
+protobuf>=4.25
+
+# optional (some models need it)
+safetensors>=0.4
+einops>=0.8
+
