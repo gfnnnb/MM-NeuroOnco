@@ -30,7 +30,7 @@
 MM-NeuroOnco aggregates data from **20 publicly available medical imaging datasets**, covering **8 tumor types** plus healthy controls.
 
 <p align="center">
-  <img src="assets/Figure_3.png" width="800" alt="Distribution of tumor types and question diversity">
+  <img src="assets/Figure3.png" width="800" alt="Distribution of tumor types and question diversity">
   <br>
   <em>Figure 3: Distribution of tumor types and question diversity in the instruction dataset.</em>
 </p>
@@ -51,7 +51,7 @@ MM-NeuroOnco aggregates data from **20 publicly available medical imaging datase
 The dataset provides rich Chain-of-Thought (CoT) explanations and grounded diagnosis.
 
 <p align="center">
-  <img src="assets/Figure_7.png" width="900" alt="Sample cases showing model reasoning">
+  <img src="assets/Figure7.png" width="900" alt="Sample cases showing model reasoning">
   <br>
   <em>Figure 7: Sample cases showing model reasoning, attribute extraction, and diagnosis.</em>
 </p>
@@ -63,7 +63,7 @@ The dataset provides rich Chain-of-Thought (CoT) explanations and grounded diagn
 Our **fully reproducible multi-stage label construction pipeline** ensures high-quality silver labels through a rigorous "Skeptic-Conservative" dual-model approach.
 
 <p align="center">
-  <img src="assets/Figure_2.png" width="900" alt="The three-stage pipeline">
+  <img src="assets/Figure2.png" width="900" alt="The three-stage pipeline">
   <br>
   <em>Figure 2: The three-stage pipeline: (1) Dual-Model Extraction, (2) High-Precision Fusion, and (3) Quality Audit.</em>
 </p>
